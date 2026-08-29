@@ -69,3 +69,8 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
+**Cloning:**
+``` Run these command to clone this Repostry:
+git clone https://github.com/saim1437/zynli.git
+cd zynli ```
