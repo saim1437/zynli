@@ -41,4 +41,3 @@ endpoint without a frontend.
 - Each uploaded PDF gets its own ChromaDB collection (`doc_<uuid>`), so
   retrieval never mixes content across documents.
 - `doc_id` is returned by `/upload` — the frontend needs to hold onto it
-  (this is where Supabase will come in, in Phase 2, to persist it per user).
