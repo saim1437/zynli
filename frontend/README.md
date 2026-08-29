@@ -19,8 +19,7 @@ scoped to the document, and search up any topic.
 cd frontend
 npm install
 
-cp .env.local.example .env.local
-# defaults to http://localhost:8000 — change if your backend runs elsewhere
+#create a .env file with defaults to http://localhost:8000 — change if your backend runs elsewhere
 ```
 
 ## Run
@@ -43,8 +42,5 @@ Visit `http://localhost:3000`.
 
 ## Notes
 
-- Recent documents are stored in `localStorage` for now (no accounts yet —
-  that's Phase 2, when Supabase auth + cloud sync replaces this so documents
-  follow you across devices instead of just this browser).
 - All API calls live in `lib/api.ts` — swap `NEXT_PUBLIC_API_URL` in
   `.env.local` to point at a deployed backend instead of localhost.
